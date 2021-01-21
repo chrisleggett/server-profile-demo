@@ -260,25 +260,6 @@
       ]
     },
     {
-      "resourceType": "/administrativeAccounts",
-      "operationType": "SAVE",
-      "items": [
-        {
-          "username": "Administrator",
-          "password": "OBF:JWE:eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiTXNOb1RWcVREbiIsInZlcnNpb24iOiIxMC4xLjMuMCJ9..jGQ0fNTwwz74RDV_tYhdfg.A0kac0oyaLJbldpgnRr7H0CkZW-yiBnBxe6CwicwN6ywBWZxKhfU7iUYB_uuia8jVUZNJ1Q5FnJ549ccuoWuow.9ptOLsVw81Q549lUWLz7tQ",
-          "description": "Initial administrator user.",
-          "auditor": false,
-          "active": true,
-          "roles": [
-            "USER_ADMINISTRATOR",
-            "EXPRESSION_ADMINISTRATOR",
-            "ADMINISTRATOR",
-            "CRYPTO_ADMINISTRATOR"
-          ]
-        }
-      ]
-    },
-    {
       "resourceType": "/certificates/revocation/settings",
       "operationType": "SAVE",
       "items": [
