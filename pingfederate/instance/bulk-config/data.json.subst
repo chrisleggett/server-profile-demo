@@ -247,6 +247,25 @@
       ]
     },
     {
+      "resourceType": "/administrativeAccounts",
+      "operationType": "SAVE",
+      "items": [
+        {
+          "username": "Administrator",
+          "password": "${PING_IDENTITY_PASSWORD}",
+          "description": "Initial administrator user.",
+          "auditor": false,
+          "active": true,
+          "roles": [
+            "USER_ADMINISTRATOR",
+            "CRYPTO_ADMINISTRATOR",
+            "ADMINISTRATOR",
+            "EXPRESSION_ADMINISTRATOR"
+          ]
+        }
+      ]
+    },    
+    {
       "resourceType": "/serverSettings/outboundProvisioning",
       "operationType": "SAVE",
       "items": [
